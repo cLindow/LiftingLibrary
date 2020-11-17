@@ -11,11 +11,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Print Current Directory
         run: pwd
-      - name: List Filed in Directory
+      - name: List Files in Directory
         run: ls
       - name: Check Dotnet Cli
-        run: dotnet
+        run: dotnet build
+      - name: List Files after build
+        run: ls LiftingLibrary.api/ -R
       - name: Check NPM cli
-        run: npm
+        run: npm -v
       
   
