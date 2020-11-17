@@ -4,7 +4,101 @@
     <e p="C:\Users\Christoffer\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Christoffer\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LiftingLibrary.267153528.00" t="ExcludeRecursive" />
     <e p="C:\Users\Christoffer\RiderProjects\LiftingLibrary" t="IncludeFlat">
+      <e p="LiftingLibrary.api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="Home.cs" t="Include" />
+        </e>
+        <e p="LiftingLibrary.api.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LiftingLibrary.api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
       <e p="LiftingLibrary.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="web-client\node_modules\@babel\parser" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@babel\types" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@nuxt\config" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@nuxt\types" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@nuxt\vue-app" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@nuxtjs\axios" t="IncludeRecursive" />
+      <e p="web-client\node_modules\@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="babel__generator" t="IncludeRecursive" />
+        <e p="babel__template" t="IncludeRecursive" />
+        <e p="babel__traverse" t="IncludeRecursive" />
+        <e p="body-parser" t="IncludeRecursive" />
+        <e p="browserslist" t="IncludeRecursive" />
+        <e p="clean-css" t="IncludeRecursive" />
+        <e p="connect" t="IncludeRecursive" />
+        <e p="express" t="IncludeRecursive" />
+        <e p="express-serve-static-core" t="IncludeRecursive" />
+        <e p="memory-fs" t="IncludeRecursive" />
+        <e p="mime" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="qs" t="IncludeRecursive" />
+        <e p="range-parser" t="IncludeRecursive" />
+        <e p="relateurl" t="IncludeRecursive" />
+        <e p="serve-static" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-sources" t="IncludeRecursive" />
+      </e>
+      <e p="web-client\node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
+      <e p="web-client\node_modules\acorn" t="IncludeRecursive" />
+      <e p="web-client\node_modules\axios" t="IncludeRecursive" />
+      <e p="web-client\node_modules\axios-retry" t="IncludeRecursive" />
+      <e p="web-client\node_modules\bootstrap" t="IncludeRecursive" />
+      <e p="web-client\node_modules\bootstrap-vue" t="IncludeRecursive" />
+      <e p="web-client\node_modules\commander" t="IncludeRecursive" />
+      <e p="web-client\node_modules\consola" t="IncludeRecursive" />
+      <e p="web-client\node_modules\core-js" t="IncludeRecursive" />
+      <e p="web-client\node_modules\create-require" t="IncludeRecursive" />
+      <e p="web-client\node_modules\defu" t="IncludeRecursive" />
+      <e p="web-client\node_modules\destr" t="IncludeRecursive" />
+      <e p="web-client\node_modules\execa" t="IncludeRecursive" />
+      <e p="web-client\node_modules\figures" t="IncludeRecursive" />
+      <e p="web-client\node_modules\get-stream" t="IncludeRecursive" />
+      <e p="web-client\node_modules\hable" t="IncludeRecursive" />
+      <e p="web-client\node_modules\is-stream" t="IncludeRecursive" />
+      <e p="web-client\node_modules\jiti" t="IncludeRecursive" />
+      <e p="web-client\node_modules\loglevel" t="IncludeRecursive" />
+      <e p="web-client\node_modules\mimic-fn" t="IncludeRecursive" />
+      <e p="web-client\node_modules\nanoid" t="IncludeRecursive" />
+      <e p="web-client\node_modules\npm-run-path" t="IncludeRecursive" />
+      <e p="web-client\node_modules\nuxt" t="IncludeRecursive" />
+      <e p="web-client\node_modules\onetime" t="IncludeRecursive" />
+      <e p="web-client\node_modules\path-key" t="IncludeRecursive" />
+      <e p="web-client\node_modules\popper.js" t="IncludeRecursive" />
+      <e p="web-client\node_modules\portal-vue" t="IncludeRecursive" />
+      <e p="web-client\node_modules\postcss" t="IncludeRecursive" />
+      <e p="web-client\node_modules\postcss-selector-parser" t="IncludeRecursive" />
+      <e p="web-client\node_modules\rc9" t="IncludeRecursive" />
+      <e p="web-client\node_modules\source-map" t="IncludeRecursive" />
+      <e p="web-client\node_modules\terser" t="IncludeRecursive" />
+      <e p="web-client\node_modules\tslib" t="IncludeRecursive" />
+      <e p="web-client\node_modules\unfetch" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-functional-data-merge" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-loader" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-meta" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-router" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-server-renderer" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vue-template-compiler" t="IncludeRecursive" />
+      <e p="web-client\node_modules\vuex" t="IncludeRecursive" />
     </e>
   </component>
 </project>
