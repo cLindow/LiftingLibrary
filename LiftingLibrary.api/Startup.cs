@@ -18,7 +18,10 @@ namespace LiftingLibrary.api
         {
             services.AddControllers();
             services.AddCors(options => options.AddPolicy(ALL_CORS, build => build
-                .AllowAnyHeader().AllowAnyOrigin()));
+                .AllowAnyHeader()
+                .AllowAnyOrigin()
+                .AllowAnyMethod()));
+            services.AddSingleton<ExerciseStore>();
         }
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -27,6 +30,7 @@ namespace LiftingLibrary.api
             {
                 app.UseDeveloperExceptionPage();
             }
+            
 
             app.UseCors(ALL_CORS);
 
