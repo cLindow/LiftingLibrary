@@ -1,5 +1,14 @@
 <template>
   <div class="container">
+    <div class="container">
+      <!-- Styled -->
+      <b-file
+        accept="videos\*"
+        @change="handleFile"
+        placeholder="Choose a file or drop it here..."
+        drop-placeholder="Drop file here..."
+      ></b-file>
+    </div>
     <div>
       <h1 class="title">
         {{message}}
@@ -22,6 +31,7 @@
 <script>
 import {mapState, mapActions, mapMutations} from "vuex";
 import {BButton, BFormInput} from "bootstrap-vue";
+import Axios from "axios";
 
 export default {
   components: {
@@ -50,6 +60,13 @@ export default {
     async saveExercise() {
       await this.createExercise({exercise: {name: this.exerciseName}});
       this.exerciseName = ""
+    },
+    async handleFile({target: {files}}){
+      if(!files[0]) return;
+      const file = files[0]
+      const form = new FormData();
+      form.append("video", file)
+      const result = await Axios.post("http://localhost:5000/api/videos", form);
     }
   }
 }

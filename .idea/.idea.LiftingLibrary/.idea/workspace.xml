@@ -9,19 +9,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22062cf-98cc-4a65-8c0d-9e5933fa39e6" name="Default Changelist" comment="Setup">
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/Exercises.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.api/ExerciseStore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.api/Models/Exercise.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/store/exercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/VideoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/Exercises.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/Home.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/LiftingLibrary.api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/LiftingLibrary.api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/components/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/layouts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/middleware/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/pages/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-client/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-client/store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/plugins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/static/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E47CDD0A-CDA3-44CA-B3A5-C818AD13EBA9/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54502DF6-311A-467B-973A-F7D24256D898/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E47CDD0A-CDA3-44CA-B3A5-C818AD13EBA9/16/EndpointRoutingMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54502DF6-311A-467B-973A-F7D24256D898/13E/ThreadPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/413DB232-287F-45B6-B4A1-61090E1C9EB9/9/CorsMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54502DF6-311A-467B-973A-F7D24256D898/13D/ThreadPool.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1E91381A-E6FB-483F-B621-BC63C0219EA8/7/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81FB0339-4759-4E2D-8C9E-6C81F1ECEE20/D/IFormFile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0DF4C01E-760B-492A-98B6-5D00F3DDA2D3/4/DeveloperExceptionPageMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54502DF6-311A-467B-973A-F7D24256D898/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2AAAFB8E-8603-4AB3-912F-3A747E191DE7/1/HostFilteringMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/47002240-EC38-46FD-BE4F-E63419744E68/D/HostingApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D9E410BA-61D6-43A7-8CC4-21DAC1F4447D/5A/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54502DF6-311A-467B-973A-F7D24256D898/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -40,11 +65,15 @@
         <option value="$PROJECT_DIR$/.github/workflows/build.yaml" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/ExerciseStore.cs" />
         <option value="$PROJECT_DIR$/web-client/store/exercises.js" />
-        <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
-        <option value="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/Exercises.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Models/Exercise.cs" />
         <option value="$PROJECT_DIR$/web-client/store/index.js" />
+        <option value="$PROJECT_DIR$/web-client/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/VideoController.cs" />
+        <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
       </list>
     </option>
   </component>
@@ -59,8 +88,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498854" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002292" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3500425" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29991505" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -122,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605630696126</updated>
       <workItem from="1605630704206" duration="1878000" />
-      <workItem from="1605632645240" duration="17771000" />
+      <workItem from="1605632645240" duration="24710000" />
     </task>
     <task id="LOCAL−00001" summary="Setup">
       <created>1605636484742</created>
@@ -156,90 +185,94 @@
     <option name="LAST_COMMIT_MESSAGE" value="Setup" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="808" y="184" key="#Plugins" timestamp="1605651369393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="184" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605651369393" />
     <state x="792" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605631379754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="792" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605631379754" />
-    <state width="1208" height="278" key="GridCell.Tab.0.bottom" timestamp="1605636293131">
+    <state width="1208" height="278" key="GridCell.Tab.0.bottom" timestamp="1605657292163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605636293131" />
-    <state width="1208" height="278" key="GridCell.Tab.0.center" timestamp="1605636293131">
+    <state width="1208" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605657292163" />
+    <state width="1208" height="278" key="GridCell.Tab.0.center" timestamp="1605657292162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605636293131" />
-    <state width="1208" height="278" key="GridCell.Tab.0.left" timestamp="1605636293131">
+    <state width="1208" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605657292162" />
+    <state width="1208" height="278" key="GridCell.Tab.0.left" timestamp="1605657292162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605636293131" />
-    <state width="1208" height="278" key="GridCell.Tab.0.right" timestamp="1605636293131">
+    <state width="1208" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605657292162" />
+    <state width="1208" height="278" key="GridCell.Tab.0.right" timestamp="1605657292163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605636293131" />
-    <state width="1340" height="355" key="GridCell.Tab.1.bottom" timestamp="1605632594212">
+    <state width="1208" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605657292163" />
+    <state width="1208" height="370" key="GridCell.Tab.1.bottom" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594212" />
-    <state width="1340" height="355" key="GridCell.Tab.1.center" timestamp="1605632594212">
+    <state width="1208" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.1.center" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594212" />
-    <state width="1340" height="355" key="GridCell.Tab.1.left" timestamp="1605632594212">
+    <state width="1208" height="370" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.1.left" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594212" />
-    <state width="1340" height="355" key="GridCell.Tab.1.right" timestamp="1605632594212">
+    <state width="1208" height="370" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.1.right" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594212" />
-    <state width="1340" height="355" key="GridCell.Tab.2.bottom" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.2.bottom" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.2.center" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.2.center" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.2.left" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.2.left" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.2.right" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.2.right" timestamp="1605656792598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.3.bottom" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792598" />
+    <state width="1208" height="370" key="GridCell.Tab.3.bottom" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.3.center" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.3.center" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.3.left" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.3.left" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.3.right" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.3.right" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.4.bottom" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.4.bottom" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.4.center" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.4.center" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.4.left" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.4.left" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
-    <state width="1340" height="355" key="GridCell.Tab.4.right" timestamp="1605632594213">
+    <state width="1208" height="370" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
+    <state width="1208" height="370" key="GridCell.Tab.4.right" timestamp="1605656792599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="355" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605632594213" />
+    <state width="1208" height="370" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605656792599" />
     <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1605630826403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,9 +289,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1066" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605633918168" />
-    <state x="1051" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605641370088">
+    <state x="1051" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605657396802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605641370088" />
+    <state x="1051" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605657396802" />
   </component>
 </project>

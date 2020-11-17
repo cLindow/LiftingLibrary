@@ -7,11 +7,11 @@ namespace LiftingLibrary.api.Controllers
 {
     [ApiController]
     [Route("api/exercises")]
-    public class Exercises : ControllerBase
+    public class ExercisesController : ControllerBase
     {
         private readonly ExerciseStore _store;
 
-        public Exercises(ExerciseStore store)
+        public ExercisesController(ExerciseStore store)
         {
             _store = store;
         }

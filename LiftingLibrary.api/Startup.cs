@@ -17,8 +17,7 @@ namespace LiftingLibrary.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddCors(options => options.AddPolicy(ALL_CORS, build => build
-                .AllowAnyHeader()
+            services.AddCors(options => options.AddPolicy(ALL_CORS, build => build.AllowAnyHeader()
                 .AllowAnyOrigin()
                 .AllowAnyMethod()));
             services.AddSingleton<ExerciseStore>();
