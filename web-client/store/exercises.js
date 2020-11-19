@@ -1,6 +1,4 @@
-﻿import Axios from "axios";
-
-const initState = () => ({
+﻿const initState = () => ({
   exercises: []
 });
 
@@ -17,11 +15,7 @@ export const mutations = {
 
 export const actions = {
   async fetchExercises({commit}){
-    const exercises =  ( await Axios.get("http://localhost:5000/api/exercises")).data;
+    const exercises =  await this.$axios.$get("/api/exercises")
     commit("setExercises", {exercises});
   },
-  async createExercise({commit, dispatch}, {exercise}){
-    await Axios.post("http://localhost:5000/api/exercises", exercise)
-    await dispatch('fetchExercises')
-  }
 }

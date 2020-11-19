@@ -30,9 +30,7 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="wwwroot" t="Include">
-          <e p="d3tko42w.k3f.mp4" t="Include" />
-        </e>
+        <e p="wwwroot" t="Include" />
       </e>
       <e p="LiftingLibrary.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
