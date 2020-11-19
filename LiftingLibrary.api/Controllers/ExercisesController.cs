@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using LiftingLibrary.data;
+using LiftingLibrary.models;
 using Microsoft.AspNetCore.Mvc;
-using LiftingLibrary.api.Models;
 
 namespace LiftingLibrary.api.Controllers
 {
@@ -9,45 +12,56 @@ namespace LiftingLibrary.api.Controllers
     [Route("api/exercises")]
     public class ExercisesController : ControllerBase
     {
-        private readonly ExerciseStore _store;
+        private readonly AppDbContext _ctx;
 
-        public ExercisesController(ExerciseStore store)
+        public ExercisesController(AppDbContext ctx)
         {
-            _store = store;
+            _ctx = ctx;
         }
 
         // /api/tricks
         [HttpGet]
-        public IActionResult All() => Ok(_store.All);
-
-        // /api/tricks/{id}
+        public IEnumerable<Exercise> All() => _ctx.Exercises.ToList();
+        
         [HttpGet("{id}")]
-        public IActionResult Get(int id) => Ok(_store.All.FirstOrDefault(x => x.Id.Equals(id)));
-
-        // /api/tricks/{id}/submissions
-        // [HttpGet("{id}")]
-        // public IActionResult GetSub(int id) => Ok(_store.All.FirstOrDefault(x => x.Id.Equals(id)));
-
-        // /api/tricks
+        public Exercise Get(int id) => _ctx.Exercises.FirstOrDefault(x => x.Id.Equals(id));
+        
+        [HttpGet("{exerciseId}/submissions")]
+        public IEnumerable<Submission> ListSubmissionsForTrick(int exerciseId) =>
+            _ctx.Submissions.Where(x => x.ExerciseId.Equals(exerciseId)).ToList();
+        
         [HttpPost]
-        public IActionResult Create([FromBody] Exercise exercise)
+        public async Task<Exercise> Create([FromBody] Exercise exercise)
         {
-            _store.Add(exercise);
-            return Ok();
+            _ctx.Add(exercise);
+            await _ctx.SaveChangesAsync();
+            return exercise;
         }
-
-        // /api/tricks
+        
         [HttpPut]
-        public IActionResult Update([FromBody] Exercise exercise)
+        public async Task<Exercise> Update([FromBody] Exercise exercise)
         {
-            throw new NotImplementedException();
-        }
+            if (exercise.Id == 0)
+            {
+                return null;
+            }
 
-        // /api/tricks/{id}
+            _ctx.Add(exercise);
+            await _ctx.SaveChangesAsync();
+            return exercise;
+        }
+        
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            throw new NotImplementedException();
+            Exercise exercise = _ctx.Exercises.FirstOrDefault(x => x.Id.Equals(id));
+            if (exercise == null)
+            {
+                return null;
+            }
+            exercise.Deleted = true;
+            await _ctx.SaveChangesAsync();
+            return Ok();
         }
     }
 } 

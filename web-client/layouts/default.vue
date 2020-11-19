@@ -14,14 +14,13 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-nav-item @click="toggleActive">Upload</b-nav-item>
-          </b-nav-form>
+
+          <video-upload/>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </div>
-    <video-upload/>
+
   <div>
     <Nuxt />
   </div>
@@ -29,11 +28,9 @@
 </template>
 
 <script>
-import {mapMutations} from "vuex";
 import VideoUpload from "../components/video-upload"
 
 export default {
-  methods: mapMutations("video-upload", ['toggleActive']),
   components: {
   VideoUpload
   }

@@ -11,13 +11,11 @@
         <e p="Controllers" t="Include">
           <e p="ExercisesController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="SubmissionsController.cs" t="Include" />
           <e p="VideoController.cs" t="Include" />
         </e>
-        <e p="ExerciseStore.cs" t="Include" />
         <e p="LiftingLibrary.api.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include">
-          <e p="Exercise.cs" t="Include" />
-        </e>
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -30,7 +28,40 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="wwwroot" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="5qyp5pkx.zyl.mp4" t="Include" />
+          <e p="cjbizgmw.m1c.mp4" t="Include" />
+          <e p="dauqcg32.shr.mp4" t="Include" />
+          <e p="jozbghga.2l2.mp4" t="Include" />
+          <e p="pmvncz4n.1ut.mp4" t="Include" />
+          <e p="s3ympiy4.i2c.mp4" t="Include" />
+        </e>
+      </e>
+      <e p="LiftingLibrary.data" t="IncludeRecursive">
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LiftingLibrary.data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="LiftingLibrary.data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LiftingLibrary.models" t="IncludeRecursive">
+        <e p="BaseModel.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exercise.cs" t="Include" />
+        <e p="LiftingLibrary.models.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="LiftingLibrary.models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Submission.cs" t="Include" />
       </e>
       <e p="LiftingLibrary.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

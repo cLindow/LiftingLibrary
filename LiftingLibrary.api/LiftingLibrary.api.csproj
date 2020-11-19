@@ -5,7 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Models" />
       <Folder Include="wwwroot" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LiftingLibrary.data\LiftingLibrary.data.csproj" />
     </ItemGroup>
 
 </Project>
