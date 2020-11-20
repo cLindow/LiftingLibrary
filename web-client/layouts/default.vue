@@ -15,7 +15,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
 
-          <video-upload/>
+          <content-creation-dialog></content-creation-dialog>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -28,11 +28,11 @@
 </template>
 
 <script>
-import VideoUpload from "../components/video-upload"
+import ContentCreationDialog from "@/components/content-creation/content-creation-dialog";
 
 export default {
   components: {
-  VideoUpload
+    ContentCreationDialog,
   }
 }
 </script>

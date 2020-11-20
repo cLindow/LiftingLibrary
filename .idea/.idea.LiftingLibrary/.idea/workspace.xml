@@ -9,23 +9,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f22062cf-98cc-4a65-8c0d-9e5933fa39e6" name="Default Changelist" comment="Setup">
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/SubmissionsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.models/BaseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LiftingLibrary.models/Submission.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/store/submissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-client/components/content-creation/content-creation-dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-client/components/content-creation/exercise-steps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-client/components/content-creation/submissions-steps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-client/pages/exercises/_exercise.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiftingLibrary/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/ExerciseStore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/LiftingLibrary.api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/LiftingLibrary.api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Models/Exercise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.models/Exercise.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiftingLibrary.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-client/components/video-upload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/components/video-upload.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/5qyp5pkx.zyl.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/cjbizgmw.m1c.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/dauqcg32.shr.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/jozbghga.2l2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/pmvncz4n.1ut.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.api/wwwroot/s3ympiy4.i2c.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.models/BaseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.models/BaseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.models/Exercise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.models/Exercise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiftingLibrary.models/Submission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LiftingLibrary.models/Submission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/components/video-upload.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-client/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-client/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/store/exercises.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/store/exercises.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/store/submissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/store/submissions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-client/store/video-upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-client/store/video-upload.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,24 +81,28 @@
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Models/Exercise.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/VideoController.cs" />
         <option value="$PROJECT_DIR$/web-client/nuxt.config.js" />
-        <option value="$PROJECT_DIR$/web-client/store/exercises.js" />
         <option value="$PROJECT_DIR$/web-client/data/enum.js" />
         <option value="$PROJECT_DIR$/web-client/store/videos.js" />
-        <option value="$PROJECT_DIR$/web-client/layouts/default.vue" />
         <option value="$PROJECT_DIR$/LiftingLibrary.models/Class1.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.data/Class1.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Startup.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.data/AppDbContext.cs" />
-        <option value="$PROJECT_DIR$/LiftingLibrary.models/Submission.cs" />
-        <option value="$PROJECT_DIR$/LiftingLibrary.models/BaseModel.cs" />
         <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/SubmissionsController.cs" />
-        <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" />
-        <option value="$PROJECT_DIR$/LiftingLibrary.models/Exercise.cs" />
-        <option value="$PROJECT_DIR$/web-client/store/submissions.js" />
-        <option value="$PROJECT_DIR$/web-client/store/index.js" />
-        <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
         <option value="$PROJECT_DIR$/web-client/components/video-upload.vue" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.models/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.models/Exercise.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.models/Submission.cs" />
+        <option value="$PROJECT_DIR$/LiftingLibrary.api/Controllers/ExercisesController.cs" />
+        <option value="$PROJECT_DIR$/web-client/pages/exercises/_exercise.vue" />
+        <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
+        <option value="$PROJECT_DIR$/web-client/store/index.js" />
+        <option value="$PROJECT_DIR$/web-client/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/web-client/components/content-creation/submissions-steps.vue" />
+        <option value="$PROJECT_DIR$/web-client/store/exercises.js" />
+        <option value="$PROJECT_DIR$/web-client/components/content-creation/exercise-steps.vue" />
         <option value="$PROJECT_DIR$/web-client/store/video-upload.js" />
+        <option value="$PROJECT_DIR$/web-client/store/submissions.js" />
+        <option value="$PROJECT_DIR$/web-client/components/content-creation/content-creation-dialog.vue" />
       </list>
     </option>
   </component>
@@ -172,7 +181,8 @@
       <updated>1605630696126</updated>
       <workItem from="1605630704206" duration="1878000" />
       <workItem from="1605632645240" duration="24844000" />
-      <workItem from="1605798239057" duration="24073000" />
+      <workItem from="1605798239057" duration="27765000" />
+      <workItem from="1605874497424" duration="11477000" />
     </task>
     <task id="LOCAL−00001" summary="Setup">
       <created>1605636484742</created>
@@ -218,22 +228,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1014" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605818432430" />
-    <state width="1208" height="278" key="GridCell.Tab.0.bottom" timestamp="1605814618649">
+    <state width="1208" height="278" key="GridCell.Tab.0.bottom" timestamp="1605826339926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605814618649" />
-    <state width="1208" height="278" key="GridCell.Tab.0.center" timestamp="1605814618649">
+    <state width="1208" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605826339926" />
+    <state width="1208" height="278" key="GridCell.Tab.0.center" timestamp="1605826339922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605814618649" />
-    <state width="1208" height="278" key="GridCell.Tab.0.left" timestamp="1605814618648">
+    <state width="1208" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605826339922" />
+    <state width="1208" height="278" key="GridCell.Tab.0.left" timestamp="1605826339917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605814618648" />
-    <state width="1208" height="278" key="GridCell.Tab.0.right" timestamp="1605814618649">
+    <state width="1208" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605826339917" />
+    <state width="1208" height="278" key="GridCell.Tab.0.right" timestamp="1605826339924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605814618649" />
+    <state width="1208" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605826339924" />
     <state width="1208" height="370" key="GridCell.Tab.1.bottom" timestamp="1605657593228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,6 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1066" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605633918168" />
+    <state x="1096" y="379" key="run.anything.popup" timestamp="1605823690692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="379" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605823690692" />
     <state x="1051" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605803935312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

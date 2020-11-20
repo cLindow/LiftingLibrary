@@ -24,15 +24,20 @@ namespace LiftingLibrary.api.Controllers
         public IEnumerable<Exercise> All() => _ctx.Exercises.ToList();
         
         [HttpGet("{id}")]
-        public Exercise Get(int id) => _ctx.Exercises.FirstOrDefault(x => x.Id.Equals(id));
+        public Exercise Get(string id) => 
+            _ctx.Exercises.
+                FirstOrDefault(x => x.Id.Equals(id, StringComparison.InvariantCultureIgnoreCase));
         
         [HttpGet("{exerciseId}/submissions")]
-        public IEnumerable<Submission> ListSubmissionsForTrick(int exerciseId) =>
-            _ctx.Submissions.Where(x => x.ExerciseId.Equals(exerciseId)).ToList();
+        public IEnumerable<Submission> ListSubmissionsForTrick(string exerciseId) =>
+            _ctx.Submissions.
+                Where(x => x.ExerciseId.Equals(exerciseId, StringComparison.InvariantCultureIgnoreCase))
+                .ToList();
         
         [HttpPost]
         public async Task<Exercise> Create([FromBody] Exercise exercise)
         {
+            exercise.Id = exercise.Name.Replace(" ", "-").ToLowerInvariant();
             _ctx.Add(exercise);
             await _ctx.SaveChangesAsync();
             return exercise;
@@ -41,7 +46,7 @@ namespace LiftingLibrary.api.Controllers
         [HttpPut]
         public async Task<Exercise> Update([FromBody] Exercise exercise)
         {
-            if (exercise.Id == 0)
+            if (string.IsNullOrEmpty(exercise.Id))
             {
                 return null;
             }
@@ -52,7 +57,7 @@ namespace LiftingLibrary.api.Controllers
         }
         
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(string id)
         {
             Exercise exercise = _ctx.Exercises.FirstOrDefault(x => x.Id.Equals(id));
             if (exercise == null)
