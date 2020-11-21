@@ -9,13 +9,16 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="CategoriesController.cs" t="Include" />
+          <e p="DifficultiesController.cs" t="Include" />
           <e p="ExercisesController.cs" t="Include" />
-          <e p="HomeController.cs" t="Include" />
           <e p="SubmissionsController.cs" t="Include" />
           <e p="VideoController.cs" t="Include" />
         </e>
+        <e p="Form" t="Include">
+          <e p="ExerciseForm.cs" t="Include" />
+        </e>
         <e p="LiftingLibrary.api.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -28,15 +31,14 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="ExerciseViewModels.cs" t="Include" />
+        </e>
         <e p="wwwroot" t="Include">
-          <e p="2gsqorta.az0.mp4" t="Include" />
-          <e p="2s3s0nzc.p5h.mp4" t="Include" />
-          <e p="fvnskau0.0xq.mp4" t="Include" />
-          <e p="gqh5ushy.sl3.mp4" t="Include" />
-          <e p="h2udb1cn.n13.mp4" t="Include" />
-          <e p="nusbbe0w.xyc.mp4" t="Include" />
-          <e p="o5a45bu1.h4j.mp4" t="Include" />
-          <e p="zda445iq.rd0.mp4" t="Include" />
+          <e p="5hkqoa4s.wyd.mp4" t="Include" />
+          <e p="rvuqupl5.i2l.mp4" t="Include" />
+          <e p="socwe4fi.nzk.mp4" t="Include" />
+          <e p="taocwp0q.noy.mp4" t="Include" />
         </e>
       </e>
       <e p="LiftingLibrary.data" t="IncludeRecursive">
@@ -54,7 +56,11 @@
       <e p="LiftingLibrary.models" t="IncludeRecursive">
         <e p="BaseModel.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Category.cs" t="Include" />
+        <e p="Difficulty.cs" t="Include" />
         <e p="Exercise.cs" t="Include" />
+        <e p="ExerciseCategory.cs" t="Include" />
+        <e p="ExerciseRelationship.cs" t="Include" />
         <e p="LiftingLibrary.models.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

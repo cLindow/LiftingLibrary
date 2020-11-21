@@ -1,6 +1,4 @@
-﻿import Axios from "axios";
-
-const initState = () => ({})
+﻿const initState = () => ({})
 
 export const state = initState
 
@@ -11,7 +9,8 @@ export const mutations = {
 }
 
 export const actions = {
-  async nuxtServerInit({dispatch}){
-    dispatch("exercises/fetchExercises")
+
+  nuxtServerInit({dispatch}){
+   return dispatch("exercises/fetchExercises")
   }
 }

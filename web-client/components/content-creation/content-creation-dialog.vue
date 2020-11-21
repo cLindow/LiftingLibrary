@@ -28,17 +28,21 @@
 import {mapState, mapMutations} from "vuex";
 import ExerciseSteps from "@/components/content-creation/exercise-steps";
 import SubmissionSteps from "@/components/content-creation/submissions-steps"
+import CategoryForm from "@/components/content-creation/category-form";
+import DifficultyForm from "@/components/content-creation/difficulty-form";
 
 export default {
   name: "content-creation-dialog",
-  components: {ExerciseSteps, SubmissionSteps},
+  components: {DifficultyForm, CategoryForm, ExerciseSteps, SubmissionSteps},
   computed:
     {
       ...mapState("video-upload", ["active", "component"]),
       menuItems() {
       return [
-        {component: ExerciseSteps, title: "Exercise"},
-        {component: SubmissionSteps, title: "Submission"}
+       {component: ExerciseSteps, title: "Exercise"},
+       {component: SubmissionSteps, title: "Submission"},
+        {component: CategoryForm, title: "Category"},
+        {component: DifficultyForm, title: "Difficulty"},
       ]
       }
 },

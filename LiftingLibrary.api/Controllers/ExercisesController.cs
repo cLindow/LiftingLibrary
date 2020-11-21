@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LiftingLibrary.api.Form;
+using LiftingLibrary.api.ViewModels;
 using LiftingLibrary.data;
 using LiftingLibrary.models;
 using Microsoft.AspNetCore.Mvc;
@@ -21,12 +23,14 @@ namespace LiftingLibrary.api.Controllers
 
         // /api/tricks
         [HttpGet]
-        public IEnumerable<Exercise> All() => _ctx.Exercises.ToList();
+        public IEnumerable<object> All() => _ctx.Exercises.Select(ExerciseViewModels.Default).ToList();
         
         [HttpGet("{id}")]
-        public Exercise Get(string id) => 
-            _ctx.Exercises.
-                FirstOrDefault(x => x.Id.Equals(id, StringComparison.InvariantCultureIgnoreCase));
+        public object Get(string id) => 
+            _ctx.Exercises
+                .Where(x => x.Id.Equals(id, StringComparison.InvariantCultureIgnoreCase))
+                .Select(ExerciseViewModels.Default)
+                .FirstOrDefault();
         
         [HttpGet("{exerciseId}/submissions")]
         public IEnumerable<Submission> ListSubmissionsForTrick(string exerciseId) =>
@@ -35,16 +39,26 @@ namespace LiftingLibrary.api.Controllers
                 .ToList();
         
         [HttpPost]
-        public async Task<Exercise> Create([FromBody] Exercise exercise)
+        public async Task<object> Create([FromBody] ExerciseForm exerciseForm)
         {
-            exercise.Id = exercise.Name.Replace(" ", "-").ToLowerInvariant();
+            Exercise exercise = new Exercise
+            {
+                Id = exerciseForm.Id = exerciseForm.Name.Replace(" ", "-").ToLowerInvariant(),
+                Name = exerciseForm.Name,
+                Description = exerciseForm.Description,
+                Difficulty = exerciseForm.Difficulty,
+                ExerciseCategories = exerciseForm.Categories.Select(x => new ExerciseCategory
+                {
+                    CategoryId = x
+                }).ToList()
+            };
             _ctx.Add(exercise);
             await _ctx.SaveChangesAsync();
-            return exercise;
+            return ExerciseViewModels.Default.Compile().Invoke(exercise);
         }
         
         [HttpPut]
-        public async Task<Exercise> Update([FromBody] Exercise exercise)
+        public async Task<object> Update([FromBody] Exercise exercise)
         {
             if (string.IsNullOrEmpty(exercise.Id))
             {
@@ -53,7 +67,7 @@ namespace LiftingLibrary.api.Controllers
 
             _ctx.Add(exercise);
             await _ctx.SaveChangesAsync();
-            return exercise;
+            return ExerciseViewModels.Default.Compile().Invoke(exercise);
         }
         
         [HttpDelete("{id}")]

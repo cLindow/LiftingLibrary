@@ -12,12 +12,7 @@
 <script>
 import {mapState} from "vuex";
 export default {
-  computed: {
-    ...mapState("exercises", ["exercises"]),
-  },
-  async fetch(){
-    await this.$store.dispatch("exercises/fetchExercises", null, {root:true})
-  }
+  computed: mapState("exercises", ["exercises"])
 }
 
 </script>
