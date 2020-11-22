@@ -8,6 +8,8 @@ export const state = initState;
 
 export const getters = {
   exerciseById: state => id => state.exercises.find(x => x.id === id),
+  categoryById: state => id => state.categories.find(x => x.id === id),
+  difficultyById: state => id => state.difficulties.find(x => x.id === id),
   exerciseItems: state => state.exercises.map(x => ({
     text: x.name,
     value: x.id

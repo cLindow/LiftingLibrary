@@ -2,7 +2,7 @@
   <div>
     <div v-if="exercises">
       <div v-for="e in exercises">
-        <b-btn :to="`/exercises/${e.id}`">{{e.name}}</b-btn>
+        <b-btn :to="`/exercise/${e.id}`">{{e.name}}</b-btn>
         <div>
       </div>
     </div>
